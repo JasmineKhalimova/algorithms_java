@@ -13,7 +13,7 @@ public class Linkedlist {
      * To add item to the beginning of the array with ArrayList takes much longer
      * compare to LinkedList
      * LinkedList does not care where to add item on the list time it takes around same
-     * however ArrayList does if you add item at the beginning of the the ArrayList it takes much
+     * however ArrayList does if you add item at the beginning of the ArrayList it takes much
      * longer compare adding at the end of the list
      */
 
