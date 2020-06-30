@@ -75,4 +75,27 @@ or sorting strings lexicographically.
 Queue represents a data structure designed to have elements inserted at the end of the queue, 
 and elements removed from the beginning of the queue.
 
+#Big O Notation - Time Complexity 
 
+Big o notation is used to describe the performance or complexity of an argument. Big O specifically describes
+the worst - case scenario and can be used to describe the execution time required or space used 
+(e.g. in memory or disk)
+
+ "O(1)" Constant runtime - executes same amount of time no matter how big the set is.
+ 
+ "O(n)" Leaner runtime - is proportional to the input if the input value increases so the function runtime. 
+ 
+ "O(n^2)" Exponential runtime - the time to complete is proportional to the square of the amount of Data.
+ 
+ v very efficient has 2 inputs. 1 sort order and 2 key value. 
+ e.g. BinarySearch
+ 
+ "O(n log n)" N Log N Time Algorithms - n log n is the next class of algorithms. 
+ The running time grows in proportion to n log n of the input.
+ 
+ "O(n!)" Factorial runtime - This class of algorithms has a run time proportional to the factorial of the input size.
+
+# Iterator
+An Iterator is an object that can be used to loop through collections, like ArrayList and HashSet. 
+It is called an "iterator" because "iterating" is the technical term for looping.
+ 
