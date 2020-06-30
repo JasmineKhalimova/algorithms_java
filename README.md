@@ -47,6 +47,28 @@ or not an explicit comparator is provided. This must be consistent with equals i
 the Set interface. It can also be ordered by a Comparator provided at set creation time, depending on which 
 constructor is used. The TreeSet implements a NavigableSet interface by inheriting AbstractSet class.
 
+#Sorting
+
+Sorting data means arranging it in a certain order, often in an array-like data structure. 
+You can use various ordering criteria, common ones being sorting numbers from least to greatest or vice-versa, 
+or sorting strings lexicographically.
+
+    - Bubble Sort works by swapping adjacent elements if they're not in the desired order. 
+        This process repeats from the beginning of the array until all elements are in order
+    - Insertion Sort  is dividing the array into the sorted and unsorted subarrays.The sorted part is of length 1 at 
+        the beginning and is corresponding to the first (left-most) element in the array
+    - Selection Sort also divides the array into a sorted and unsorted subarray. Though, this time, the sorted 
+        subarray is formed by inserting the minimum element of the unsorted subarray at the end of the sorted array, 
+        by swapping
+    - Merge Sort Merge Sort uses recursion to solve the problem of sorting more efficiently than algorithms 
+        previously presented, and in particular it uses a divide and conquer approach
+    - Heapsort A heap is a tree that satisfies the heap property, which is that for each node, all of its children 
+        are in a given relation to it. Additionally, a heap must be almost complete. An almost complete binary 
+        tree of depth d has a subtree of depth d-1 with the same root that is complete, and in which each node with 
+        a left descendent has a complete left subtree. In other words, when adding a node, we always go for the 
+        leftmost position in the highest incomplete level.
+    - Quicksort  is another Divide and Conquer algorithm. It picks one element of an array as the pivot and sorts 
+        all of the other elements around it, for example smaller elements to the left, and larger to the right.
 
 
 
