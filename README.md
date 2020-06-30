@@ -20,3 +20,8 @@ However, while the ArrayList class and the LinkedList class can be used in the s
 HashMap store items in "key/value" pairs, and you can access them by an index of another type (e.g. a String).
 One object is used as a key (index) to another object (value). It can store different types: String keys and Integer 
 values, or the same type, like: String keys and String values.
+
+#LinkedHashMap
+LinkedHashMap is just like HashMap with an additional feature of maintaining an order of elements inserted into it. 
+HashMap provided the advantage of quick insertion, search, and deletion but it never maintained the track and order of 
+insertion which the LinkedHashMap provides where the elements can be accessed in their insertion order.
