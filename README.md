@@ -70,6 +70,9 @@ or sorting strings lexicographically.
     - Quicksort  is another Divide and Conquer algorithm. It picks one element of an array as the pivot and sorts 
         all of the other elements around it, for example smaller elements to the left, and larger to the right.
 
-
+#Queues
+(https://docs.oracle.com/javase/7/docs/api/java/util/Queue.html)
+Queue represents a data structure designed to have elements inserted at the end of the queue, 
+and elements removed from the beginning of the queue.
 
 
